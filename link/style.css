@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: coral;
+}
+nav {
+    background-color: blueviolet;
+    width: 500px;
+}
+ul {
+    width: 300px;
+    background-color: beige;
+}
+ul li { 
+    background-color: brown;
+}
+h1, h2, h3 {
+    color: blue;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    background-color: chartreuse;
+}
+section {
+    background-color: darkgray;
+}
+section article {
+    background-color: antiquewhite;
+    width: 50%;
+    /* height: 250px; evitare normalmente */
+    /* overflow: hidden; posso usarla forse per tagliare a filo un'immagine */
+    /* overflow: scroll; inserisce barra laterale */
+    /* overflow: auto; automatico */
+}
